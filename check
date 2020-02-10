@@ -14,7 +14,7 @@ def check(name):
 
 # set thread count
 if len(argv) == 3:
-	threads = Pool(processes=argv[2])
+	threads = Pool(processes=int(argv[2]))
 else: threads = Pool(processes=100)
 
 try:
