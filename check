@@ -13,7 +13,9 @@ def check(name):
 		return(name)
 
 # set thread count
-threads = Pool(processes=100)
+if len(argv) == 3:
+	threads = Pool(processes=argv[2])
+else: threads = Pool(processes=100)
 
 try:
 	with open(argv[1],"r") as file:
