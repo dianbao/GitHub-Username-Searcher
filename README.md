@@ -14,4 +14,10 @@ To check for avaliable usernames from a file run the following:
 ```bash
 ./check filename.txt
 ```
-The program may take several minutes to run depending on how powerful your system is
+This will check `filename.txt` for avaliable usernames using 100 threads, this may take a few seconds or a few minutes depending on how many usernames are being checked and how powerful your processor is. You can specify how many threads to use by providing an additional argument
+```bash
+./check filename.txt 69
+```
+This will use 69 threads rather than the default 100 to check usernames. More threads will return faster results but will also use more resources. 
+
+If you wish to exit the program while it is running please do not close your terminal's window because depending on your distro this may or may not kill the program completely, instead, you should use <kbd>CTRL</kbd>+<kbd>C</kbd>.
