@@ -1,3 +1,4 @@
+#!/bin/python3
 from requests import get
 from multiprocessing import Pool
 from sys import exit, argv
