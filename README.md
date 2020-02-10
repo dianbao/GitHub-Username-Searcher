@@ -10,13 +10,13 @@ chmod +x check
 ## Usage
 Usernames to search for should be a stored in a text file with each username seperated by a line break
 
-To check for avaliable usernames from a file run the following:
+To check for three-character avaliable usernames from a file using the sample provided run the following:
 ```bash
-./check filename.txt
+./check 3char.txt
 ```
-This will check `filename.txt` for avaliable usernames using 100 threads, this may take a few seconds or a few minutes depending on how many usernames are being checked and how powerful your processor is. You can specify how many threads to use by providing an additional argument
+This will check `3char.txt` for avaliable usernames using 100 threads, this may take a while depending on how many usernames are being checked and how powerful your processor is. You can specify how many threads to use by providing an additional argument
 ```bash
-./check filename.txt 69
+./check 3char.txt 69
 ```
 This will use 69 threads rather than the default 100 to check usernames. More threads will return faster results but will also use more resources. 
 
