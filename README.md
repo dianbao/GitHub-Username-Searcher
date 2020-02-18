@@ -17,7 +17,7 @@ To check for three-character avaliable usernames from a file using the sample pr
 ```
 ```powershell
 # Windows
-py.exe -3 check 3char.txt
+py -3 check 3char.txt
 ```
 This will check `3char.txt` for avaliable usernames using 100 threads, this may take a while depending on how many usernames are being checked and how powerful your processor is. You can specify how many threads to use by providing an additional argument
 ```bash
@@ -26,8 +26,10 @@ This will check `3char.txt` for avaliable usernames using 100 threads, this may 
 ```
 ```powershell
 # Windows
-py.exe -3 check 3char.txt 69
+py -3 check 3char.txt 69
 ```
 This will use 69 threads rather than the default 100 to check usernames. More threads will return faster results but will also use more resources. 
 
 If you wish to exit the program while it is running please do not close your terminal's window because depending on your distro this may or may not kill the program completely, instead, you should use <kbd>CTRL</kbd>+<kbd>C</kbd>.
+
+
