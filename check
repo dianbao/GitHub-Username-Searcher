@@ -1,14 +1,14 @@
 #!/bin/python3
-from requests import get
+from requests import head
 from multiprocessing import Pool
 from sys import exit, argv
 
 def check(name):
 	name = name.strip()
-	if (get("https://google.com").status_code) != 200:
+	if (head("https://www.google.com").status_code) != 200:
 		print("No connection")
 		return()
-	statusCode = get("https://github.com/" + name).status_code
+	statusCode = head("https://github.com/" + name).status_code
 	if statusCode == 404:
 		return(name)
 
