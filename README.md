@@ -1,7 +1,6 @@
 # GitHub-Username-Searcher
 [![GitHub stars](https://img.shields.io/github/stars/i6x/GitHub-Username-Searcher.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/i6x/GitHub-Username-Searcher/stargazers/)
 [![GitHub followers](https://img.shields.io/github/followers/i6x.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/i6x?tab=followers)
-[![Requirements Status](https://requires.io/github/i6x/GitHub-Username-Searcher/requirements.svg?branch=master)](https://requires.io/github/i6x/GitHub-Username-Searcher/requirements/?branch=master)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 [![Run on Repl.it](https://repl.it/badge/github/i6x/GitHub-Username-Searcher)](https://repl.it/github/i6x/GitHub-Username-Searcher)
 
