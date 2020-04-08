@@ -10,6 +10,9 @@ def check(name):
 		#return()
 	statusCode = head("https://github.com/" + name).status_code
 	if statusCode == 404:
+		with open('result.txt', mode='a+') as filename:
+			filename.write(name+'\n')
+		print(name)
 		return(name)
 
 # set thread count
